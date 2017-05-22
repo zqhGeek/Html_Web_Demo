@@ -1,0 +1,13 @@
+.container {
+    column-width: 250px;
+    -webkit-column-width: 250px;
+    column-gap: 8px;
+    -webkit-column-gap: 8px;
+}
+.container div{
+    width: 250px;
+    margin: 5px 0;
+}
+.container img{
+    width:100%;
+}

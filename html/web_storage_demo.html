@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/css_web_storage.css">
+    <script src="../js/web_storage_js.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div id="title">
+    <span>数据内容</span>
+    <span id="msg"></span>
+</div>
+<label for="input">Input</label>
+<input type="text" id="input">
+<input type="button" value="保存数据到Session" onclick="saveSessionStorage('input')">
+<input type="button" value="保存数据到Location" onclick="saveLocationStorage('input')">
+<input type="button" value="从Session读取数据" onclick="loadSessionStorage('msg')">
+<input type="button" value="从Location读取数据" onclick="loadLocationStorage('msg')">
+<br>
+<br>
+<br>
+<br>
+<table>
+    <tr>
+        <td>姓名:</td>
+        <td><input type="text" id="name" title="名称："></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input type="email" id="email" title="Email"></td>
+    </tr>
+    <tr>
+        <td>电话号码:</td>
+        <td><input type="number" id="phone" title="Phone"></td>
+    </tr>
+    <tr>
+        <td>备注：</td>
+        <td><input type="text" id="note" title="备注"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="保存" onclick="saveJsonData()"></td>
+    </tr>
+</table>
+<br>
+<label for="search">检索 </label><input type="text" id="search">
+<input type="button" value="搜索" onclick="loadJsonData('search')">
+<p id="result"></p>
+</body>
+</html>

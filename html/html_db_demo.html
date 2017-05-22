@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/html_db_js.js"></script>
+</head>
+<body onload="initDB()">
+<table>
+    <tr>
+        <td>姓名：</td>
+        <td><input type="text" id="name" title="姓名"></td>
+    </tr>
+    <tr>
+        <td>留言:</td>
+        <td><input type="text" id="note" title="留言"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="保存" title="提交" onclick="saveData()"></td>
+    </tr>
+</table>
+<hr>
+<table id="datatable" border="1">
+    <p id=""></p>
+</table>
+</body>
+</html>

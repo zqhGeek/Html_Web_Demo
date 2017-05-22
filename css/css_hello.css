@@ -1,0 +1,27 @@
+h3{
+    color: chartreuse;
+}
+#div_id{
+    color: dodgerblue;
+}
+#div_id h5{
+    color: deepskyblue;
+}
+#div_id p span {
+    color: aqua;
+}
+#div_id p {
+    color: deeppink;
+}
+table,tr,th,td{
+    border: 1px solid blue;
+    text-align: center;
+}
+table{
+
+    border-collapse: collapse;
+}
+a{
+    outline-style: dashed;
+    outline-color: brown; 
+}

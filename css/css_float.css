@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#div_one{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+}
+#div_two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 1;
+}
+#div_two p{
+    color: chartreuse;
+}
+#div_three{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+}
+#div_fd{
+    width: 100px;
+    height: 120px;
+    background-color: coral;
+    float: left;
+    top: 300px;
+}
+#div_sd{
+    width: 100px;
+    height:140px;
+    background-color: aquamarine;
+    float: left;
+
+}
+#div_td{
+    width: 100px;
+    height: 100px;
+    background-color: darkslateblue;
+    float: left;
+
+}
+br{
+    clear: both;
+}

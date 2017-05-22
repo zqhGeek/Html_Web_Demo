@@ -1,0 +1,25 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: aquamarine;
+    width: 250px;
+    text-align: center;
+}
+
+a {
+    width: 50px;
+    background-color: aquamarine;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:active, a:hover {
+    background-color: dodgerblue;
+}
+
+li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
